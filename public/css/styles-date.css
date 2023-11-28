@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto+Condensed:400,700);
+
+
+/* Plugin Example Container */
+.example {
+    width: 33%;
+    min-width: 400px;
+    padding: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.example:first-of-type {
+    position: relative;
+    bottom: 35px;
+}
+
+/* Example Heading */
+.example h2 {
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+    font-size: 1.3em;
+    margin: 15px 0;
+    color: #4F5462;
+}
+
+.example input {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    padding: 8px 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    background: #F2F2F2;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    font-family: "Roboto Condensed", helvetica, arial, sans-serif;
+}
+
+.datex select {
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin: 2px;
+	min-width:32%;
+	width:32.87%;
+	padding:0.5rem 1rem;
+	line-height: 1.5;
+	font-size:15px;
+}
+
+.datex select.invalid {
+    color: #E9403C;
+}
+
+.example input[type="submit"] {
+    margin-top: 10px;
+}
+
+.example input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+/* Code Blocks */
+pre.code-wrapper {
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #F4F6F4;
+    color: #393D3F;
+    text-align: left;
+    border: 1px solid #DCDFDC;
+    border-radius: 3px;
+}
+
+pre code {
+    font-family: 'Source Code Pro', monospace, monospace;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Highlighted Code Blocks */
+pre code span.highlight {
+    color: #EF6F6C;
+}
+
+/* Media */
+@media(max-width: 847px) {
+	.datex select {
+		padding: 10px;
+		background: #ffffff;
+		border: 1px solid #CCCCCC;
+		border-radius: 3px;
+		margin: 2px;
+		width:32%;
+		padding:0.5rem 1rem;
+		line-height: 1.5;
+		font-size:15px;
+	}
+    .example:first-of-type {
+        bottom: 0;
+    }
+}
